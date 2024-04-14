@@ -1,0 +1,40 @@
+body {
+
+/*  
+
+    background-image:url("https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    */
+
+background-image: url("img/galaxie.jpg");
+background-size: cover;
+
+}
+
+p {
+
+color:greenyellow;
+font-size: 20px;
+
+}
+
+h1{
+
+color: white;
+font-size: 30px;
+text-align: center;
+
+}
+
+#orange {
+
+color:orange;
+
+}
+
+.apbleu {
+color:blue;
+font-size: 25px;
+text-align: center;
+
+}
+

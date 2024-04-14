@@ -1,0 +1,72 @@
+/* 
+
+La propriété s'applique aux quatre côtés
+margin: 25px;
+
+vertical | horizontal
+margin: 25px auto;
+
+haut | horizontal | bas 
+margin: 25px auto 50px;
+
+haut | droit | bas | gauche 
+margin: 25px 30px 50px 0;
+
+*/
+
+
+p{
+    padding: 20px;
+    margin: 10px 30px;
+  }
+  
+  .p1{
+    border-width: 5px;
+    border-style: solid;
+    border-color : #09C;
+  }
+  .p2{
+    border: 15px double #09C;
+  }
+  .p3{
+    background-color: #0C9;
+    border: 5px ridge #09C;
+  }
+  .p4{
+    background-color: #0C9;
+    border: 5px outset #09C;
+    opacity: 0.5;
+  }
+
+  .p5{
+    border-width: 1px 2px 3px 4px;
+    border-style: dashed solid dashed solid;
+    border-color: #C04 #C04 #C04 #C04; /*Rouge foncé*/
+    background-color: #f1f1f1;
+  }
+  
+  .p6{
+    border-width: 1px 2px 3px 4px;
+    border-style: dashed solid;
+    border-color: #C04;
+    background-color: #f1f1f1;
+  }
+  
+  .p7{
+    border-top: 1px dashed #C04;
+    border-right: 2px solid #C04;
+    border-bottom: 3px dashed #C04;
+    border-left : 4px solid #C04;
+    background-color: #f1f1f1;
+  }
+  
+  .p8{
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: #C04;  
+    background-color: #f1f1f1;
+  }
+  .p9{
+    border-bottom: 2px solid #C04;
+    background-color: #f1f1f1;
+  }

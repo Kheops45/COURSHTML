@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+    </head>
+    
+    <body>
+
+<!-- 
+
+Liens : Target
+
+L’attribut target va nous permettre de choisir où doit s’ouvrir notre page de destination. 
+En pratique, nous utiliserons très souvent la valeur _blank qui spécifie que la nouvelle page doit s’ouvrir dans un nouvel onglet.
+
+_self 	 : Valeur par défaut : la page cible s’ouvre dans le même emplacement (cadre ou « frame ») que là où l’utilisateur a cliqué
+_blank 	 : La page cible s’ouvre dans un nouvel onglet ou dans une nouvelle fenêtre
+_parent : La page cible s’ouvre dans la cadre (frame) de niveau immédiatement supérieur par rapport à l’emplacement du lien
+_top 	: La page cible s’ouvre dans la fenêtre hôte (par dessus le frameset)
+Nom du cadre (frame)  :	Ouverture de la page cible dans le cadre portant le nom cité (en valeur de l’attribut name)
+-->
+
+<h1> Mon menu Principal</h1>
+
+    <ul>
+
+        <li> <a href="cours20intro.html" target="_blank">Introduction</a></li>
+        <li> <a href="cours20presentation.html" target="self">Presentation</a></li>
+        <li> <a href="cours20contexte.html"target="_parent">Contexte</a></li>
+        <li> <a href="exolien/cours20exolien.html" target="_top">Exo sous-dossier</a></li>
+      
+
+    </ul>
+
+
+
+
+    </body>
+
+</html>

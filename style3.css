@@ -1,0 +1,36 @@
+div {
+
+background-color: gold;
+color: black;
+
+
+}
+
+.fondstar1 {
+
+background-image: url("https://cdnb.artstation.com/p/assets/covers/images/007/023/409/large/tadeo-d-oria-to-boldly-go.jpg?1503092261");
+background-size: cover;
+padding-bottom: 5px;
+color:black;
+margin : 0 auto;
+
+
+}
+
+.fondstar2 {
+    
+    background-image: url("https://binaryfortressdownloads.com/Download/WPF/Images/6525/WallpaperFusion-star-trek-earth-space-dock-1680x480.jpg");
+    background-size: cover;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color:aquamarine;
+    margin : 0 auto;
+    
+    
+    }
+    
+    span{
+        font-weight: bold; /*Les textes seront en gras*/
+        background-color: yellow; /*Fond des span jaune*/
+        color: black; /*Couleur du texte noire*/
+    }
