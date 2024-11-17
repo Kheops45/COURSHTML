@@ -1,0 +1,23 @@
+.flottant1{
+float: left;
+margin-right: 20px; 
+
+}
+
+.flottant2{
+    float: right;
+    margin-left: 20px; 
+    
+    }
+
+.container {
+
+    border-radius: 48px;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
